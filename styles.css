@@ -161,3 +161,19 @@ footer > span {
 .episode:hover{
     color: blue
 }
+
+@media only screen and (max-width: 500px) {
+    body{
+        background-size: auto;
+    }
+    #detail .desc{
+        width: auto;
+        height: auto;
+    }
+    #detail .desc2{
+        width: auto;
+        height: auto;
+    }
+
+
+}
